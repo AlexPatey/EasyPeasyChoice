@@ -28,9 +28,18 @@
     color: #61dafb;
 }
 
+.canvasContainer {
+    display: flex;
+}
+
+.book {
+    width: 33vw;
+}
+
 .canvas {
     min-height: 600px;
     height: calc(100vh - 248px) !important;
+    max-height: 900px;
 }
 
 .easyTitle {
@@ -67,6 +76,17 @@
 .siteList {
     text-align: left;
     padding: 0 100px;
+}
+
+.bookName {
+    font-weight: 400;
+    font-size: 16pt;
+    text-decoration: underline;
+}
+
+.bookLink {
+    display: block;
+    padding-bottom: 30px;
 }
 
 @keyframes App-logo-spin {
