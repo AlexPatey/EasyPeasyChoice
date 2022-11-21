@@ -33,11 +33,11 @@
 }
 
 .book {
-    width: 33vw;
+    width: 33%;
 }
 
 .canvas {
-    min-height: 600px;
+    min-height: 700px;
     height: calc(100vh - 248px) !important;
     max-height: 900px;
 }
@@ -49,6 +49,7 @@
 
 .quitText {
     margin: 0px;
+    padding: 0 20px;
     font-weight: 400;
 }
 
@@ -87,6 +88,17 @@
 .bookLink {
     display: block;
     padding-bottom: 30px;
+}
+
+@media (max-width: 1250px)
+{
+    .canvasContainer {
+        display: block;
+    }
+
+    .book {
+        width: 100vw;
+    }
 }
 
 @keyframes App-logo-spin {

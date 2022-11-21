@@ -6,6 +6,7 @@ import downArrow from "./images/arrow-down.png";
 import { Canvas, useFrame, useLoader } from '@react-three/fiber'
 import React, { useRef, useState, useEffect } from 'react'
 import { TextureLoader } from 'three';
+import { useMediaQuery } from 'react-responsive';
 
 function Book(props) {
 
@@ -23,7 +24,7 @@ function Book(props) {
         <mesh
             {...props}
             ref={ref}
-            scale={2}
+            scale={useMediaQuery({ query: `(max-width: 1250px)` }) ? 2 : 1.75}
             onClick={() => window.open(props.link, "_blank")}
             onPointerOver={(event) => hover(true)}
             onPointerOut={(event) => hover(false)}>
