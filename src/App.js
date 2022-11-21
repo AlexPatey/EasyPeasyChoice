@@ -2,7 +2,6 @@ import './App.css';
 import easyPeasyLogo from "./images/easypeasy.jpg";
 import kickTheDrinkCover from "./images/kickthedrink.jpg";
 import easyWayCover from "./images/easyway.jpg";
-import downArrow from "./images/arrow-down.png";
 import { Canvas, useFrame, useLoader } from '@react-three/fiber'
 import React, { useRef, useState, useEffect } from 'react'
 import { TextureLoader } from 'three';
@@ -71,9 +70,9 @@ function App() {
             </div>
             <h3 className='quitText'>You can help by sharing this page,</h3>
             <h3 className='quitText'>[[Share links here]]</h3>
-            <h3></h3>
+            <p></p>
             <h3 className='quitText'>{"Discussing it on a <new type of computer> at ~mogsub-possum/easily"}</h3>
-            <h3></h3>
+            <p></p>
             <h3 className='quitText'>{"And, if you'd like, by joining our campaign for <peaceful plain packaging laws>"}</h3>
             {/*<h2 className='orText'>Or...</h2>*/}
             {/*<button className='goDownBtn' onClick={() => document.getElementById('siteList').scrollIntoView()}>*/}

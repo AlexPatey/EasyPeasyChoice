@@ -1,0 +1,2 @@
+D:\Working Folder\easypeasychoicev2\easypeasychoicev2\obj\Debug\easypeasychoicev2.esproj.SuggestedBindingRedirects.cache
+D:\Working Folder\easypeasychoicev2\easypeasychoicev2\obj\Debug\easypeasychoicev2.esproj.CoreCompileInputs.cache
