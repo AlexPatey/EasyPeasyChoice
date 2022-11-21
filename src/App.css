@@ -53,6 +53,10 @@
     font-weight: 400;
 }
 
+.bottomPadding {
+    margin-bottom: 30px;
+}
+
 .orText {
     margin: 10px;
     font-weight: 400;
@@ -97,7 +101,7 @@
     }
 
     .book {
-        width: 100vw;
+        width: 100%;
     }
 }
 

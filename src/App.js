@@ -73,7 +73,7 @@ function App() {
             <p></p>
             <h3 className='quitText'>{"Discussing it on a <new type of computer> at ~mogsub-possum/easily"}</h3>
             <p></p>
-            <h3 className='quitText'>{"And, if you'd like, by joining our campaign for <peaceful plain packaging laws>"}</h3>
+            <h3 className='quitText bottomPadding'>{"And, if you'd like, by joining our campaign for <peaceful plain packaging laws>"}</h3>
             {/*<h2 className='orText'>Or...</h2>*/}
             {/*<button className='goDownBtn' onClick={() => document.getElementById('siteList').scrollIntoView()}>*/}
             {/*    <img className='downArrowImg' src={downArrow} alt="down arrow"></img>*/}
