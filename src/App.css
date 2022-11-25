@@ -28,27 +28,59 @@
     color: #61dafb;
 }
 
+.headersContainer {
+    display: flex;
+    padding-top: 20px;
+    font-size: 16pt;
+    font-weight: 500;
+}
+
+.quittingHeader {
+    width: calc(100% - 60px);
+    margin: 20px 30px 0 30px;
+    padding: 10px 0;
+    border-bottom: 1px solid #bdcadb;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
 .canvasContainer {
     display: flex;
 }
 
-.book {
-    width: 33%;
+.bookContainer {
+    margin: 0;
+    padding: 0;
 }
+
+/* .book {
+    width: 100%;
+} */
 
 .canvas {
     min-height: 700px;
     height: calc(100vh - 248px) !important;
-    max-height: 900px;
+    max-height: 750px;
+}
+
+.canvas div canvas {
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .easyTitle {
     font-weight: 400;
-    margin: 15px;
+    margin: 25px 15px 15px 15px;
 }
 
 .quitText {
     margin: 0px;
+    padding: 0 20px;
+    font-weight: 400;
+}
+
+.helpText {
+    margin: 20px 0 0 0;
     padding: 0 20px;
     font-weight: 400;
 }
@@ -94,6 +126,44 @@
     padding-bottom: 30px;
 }
 
+.footerHr {
+    width: calc(100% - 600px);
+    min-width: 600px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #bdcadb;
+}
+
+.shareLinksUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.shareIcons {
+    height: 20px;
+}
+
+.shareLink {
+    color: #bdcadb;
+    font-size: 16pt;
+    padding-left: 10px;
+}
+
+.shareLink:hover {
+    color: #9cb0c9;
+}
+
+
+@media (max-width: 1600px) {
+    .canvas {
+        min-height: 500px;
+        height: calc(100vh - 248px) !important;
+        max-height: 550px;
+    }
+}
+
 @media (max-width: 1250px)
 {
     .canvasContainer {
@@ -102,6 +172,21 @@
 
     .book {
         width: 100%;
+    }
+}
+
+@media (max-width: 700px)
+{
+    .easyTitle {
+        font-size: 22pt;
+    }
+    
+    .quitText {
+        font-size: 18pt;
+    }
+    
+    .helpText {
+        font-size: 16pt;
     }
 }
 
